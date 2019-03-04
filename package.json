@@ -1,0 +1,27 @@
+{
+  "name": "Portfolio-Node.js",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index",
+    "dev": "nodemon index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mo01/Portfolio-Node.js.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Mo01/Portfolio-Node.js/issues"
+  },
+  "homepage": "https://github.com/Mo01/Portfolio-Node.js#readme",
+  "dependencies": {
+    "fs": "0.0.1-security",
+    "http": "0.0.0",
+    "nodemon": "^1.18.10",
+    "path": "^0.12.7"
+  }
+}
