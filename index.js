@@ -18,6 +18,14 @@ if(req.url == "/"){
 //         res.end(content);
 //     })
 }
+else{
+    fs.readFile(path.join(__dirname, req.url),(err, content) => {
+        console.log(content);
+        if (err) return;
+        res.writeHead(200,{'Content-Type': 'text/css'});
+        res.end(content);
+    });
+}
 });
 var PORT = process.env.PORT || 5000;
 
